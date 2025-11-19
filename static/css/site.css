@@ -1,0 +1,40 @@
+@import url("gold.css") layer(gold);
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+:root {
+    --bg: #0f0f23;
+    --text: #cccccc;
+    --green: #00cc00;
+    --dark-green: #009900;
+    --gold: #ffff66;
+    --silver: #9999cc
+}
+
+body {
+    font-family: 'Source Code Pro';
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100dvh;
+}
+
+h1 {
+	color: var(--dark-green);
+    font-weight: bold;
+}
+
+b {color: var(--gold)}
+em {color: var(--silver)}
+
+button {
+    border: 1px solid var(--dark-green);
+    cursor: pointer;
+    width: 12rem;
+    transition: all .1s linear;
+    a {text-decoration: none;}
+}
+
+button:hover {
+    border: 1px solid var(--green);
+    filter: brightness(1.05);
+}

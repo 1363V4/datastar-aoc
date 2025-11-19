@@ -1,0 +1,13 @@
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-40-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [86335]
+INFO:sanic.server:Stopping worker [86335]
+INFO:sanic.server:Worker complete [86335]
+INFO:sanic.server:Starting worker [86502]
