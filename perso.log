@@ -5,3 +5,13 @@ INFO:sanic.server:Stopping worker [2136]
 INFO:sanic.server:Worker complete [2136]
 INFO:sanic.server:Starting worker [2139]
 INFO:__mp_main__:solve
+INFO:__mp_main__:solve
+INFO:__mp_main__:solve
+INFO:__mp_main__:solve
+INFO:sanic.server:Stopping worker [2139]
+INFO:sanic.server:Worker complete [2139]
+INFO:sanic.server:Starting worker [2973]
+INFO:__mp_main__:solve
+INFO:sanic.server:Stopping worker [2973]
+INFO:sanic.server:Worker complete [2973]
+INFO:sanic.server:Starting worker [2978]

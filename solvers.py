@@ -5,7 +5,7 @@ from array import array
 
 # import redis.asyncio as redis
 # from sanic import Sanic
-from tinydb import TinyDB, where
+# from tinydb import TinyDB, where
 
 
 logger = logging.getLogger(__name__)

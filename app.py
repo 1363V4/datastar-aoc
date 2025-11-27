@@ -46,7 +46,7 @@ async def solve(request):
     logger.info("solve")
     user_id = request.cookies.get('user_id')
     A = request.json.get('input')
-    A = "A=[35300,-64910]" #debug
+    # A = "A=[35300,-64910]" #debug
     try:
         assert user_id
         A = A.split("=")[1]
