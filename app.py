@@ -36,6 +36,7 @@ async def cookie(request, response):
 async def input_page(request, xxc, pb):
     match xxc, pb:
         case "evc", "25D2":
+            # return html("404 Not Found")
             return html(open("input.html").read())
         case _:
             return html("404 Not Found")
@@ -43,10 +44,9 @@ async def input_page(request, xxc, pb):
 @app.post("/solve")
 @datastar_response
 async def solve(request):
-    logger.info("solve")
     user_id = request.cookies.get('user_id')
     A = request.json.get('input')
-    # A = "A=[35300,-64910]" #debug
+    A = "A=[35300,-64910]" #debug
     try:
         assert user_id
         A = A.split("=")[1]
@@ -58,9 +58,10 @@ async def solve(request):
         assert len(A) == 2
         assert all(isinstance(i, int) for i in A)
 
-        async for html in evc2(A, user_id, res=100):
+        async for html in evc2(A, user_id):
             if html:
-                yield SSE.patch_elements(html, mode="replace")
+                yield SSE.patch_elements(html)
+            await asyncio.sleep(.01)
     except (asyncio.CancelledError, GeneratorExit):
         pass
     except Exception as e:
