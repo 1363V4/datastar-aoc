@@ -6,6 +6,9 @@ from sanic import Sanic, html, redirect, text
 from datastar_py import ServerSentEventGenerator as SSE
 from datastar_py.sanic import datastar_response
 
+# import redis.asyncio as redis, meh
+# from tinydb import TinyDB, where / PTAIN je pouvais open hidden depuis le deb jsuis trop con
+
 from solvers import evc2
 
 
@@ -16,14 +19,18 @@ app.static('/', './index.html', name="index")
 logging.basicConfig(filename='perso.log', encoding='utf-8', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-@app.before_server_start
-async def open_connections(app):
-    app.ctx.db = {'bot': "nope"}
+# @app.before_server_start
+# async def server_start(app):
+    # app.ctx.db = TinyDB('data.json', indent=4)
+    # app.ctx.db = {'test': "ok"}
+    # app.ctx.redis_client = redis.Redis(host='localhost', port=6379, db=0, decode_responses=True)
 
 @app.on_response
 async def cookie(request, response):
     if not request.cookies.get("user_id"):
         user_id = uuid4().hex
+        response.add_cookie('user_id', user_id)
+        # app.ctx.db.insert({'user_id': user_id, 'html': ""})
 
 @app.get("/<xxc>/<pb>")
 async def input_page(request, xxc, pb):
@@ -36,9 +43,12 @@ async def input_page(request, xxc, pb):
 @app.post("/solve")
 @datastar_response
 async def solve(request):
+    logger.info("solve")
+    user_id = request.cookies.get('user_id')
     A = request.json.get('input')
-    logger.debug(A)
+    A = "A=[35300,-64910]" #debug
     try:
+        assert user_id
         A = A.split("=")[1]
         A = A.strip()
         A = A.strip("[]")
@@ -48,31 +58,11 @@ async def solve(request):
         assert len(A) == 2
         assert all(isinstance(i, int) for i in A)
 
-    # user_input = [-21713,-68997]
-        grid_cells = []
-        for i in range(100):
-            for j in range(100):
-                grid_cells.append(
-                    f'<div id="{A[0] + j}_{A[1] + i}" class="cell"></div>'
-                )
-        grid_html = "".join(grid_cells)
-        html = f'''
-<body class="gc">
-<form data-on:submit="@post('/solve')">
-<input id="user-input" type="text" required placeholder="your input here" data-bind:input>
-</form>
-<div id="plate">
-{grid_html}
-</div>
-</body>
-'''
-        yield SSE.patch_elements(html)
-        async for value in evc2(A):
-            # html = f'''<div id={"_".join(value)} engraved></div>'''
-            logger.debug(value)
-            # html = ""
-            # yield SSE.patch_elements(html)
-        yield
+        async for html in evc2(A, user_id, res=100):
+            if html:
+                yield SSE.patch_elements(html, mode="replace")
+    except (asyncio.CancelledError, GeneratorExit):
+        pass
     except Exception as e:
         logger.info(e)
         yield SSE.patch_elements("<body>block</body>")
