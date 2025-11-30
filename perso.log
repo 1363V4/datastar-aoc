@@ -166,3 +166,65 @@ INFO:sanic.root:platform: Linux-6.1.0-41-cloud-amd64-x86_64-with-glibc2.36
 INFO:sanic.root:auto-reload: enabled
 INFO:sanic.root:packages: sanic-routing==23.12.0
 INFO:sanic.server:Starting worker [1335]
+INFO:sanic.server:Stopping worker [1335]
+INFO:sanic.server:Worker complete [1335]
+INFO:sanic.server:Starting worker [1385]
+INFO:sanic.server:Stopping worker [1385]
+INFO:sanic.server:Worker complete [1385]
+INFO:sanic.server:Starting worker [1497]
+INFO:sanic.server:Stopping worker [1497]
+INFO:sanic.server:Worker complete [1497]
+INFO:sanic.server:Starting worker [1644]
+INFO:__mp_main__:list index out of range
+INFO:sanic.server:Stopping worker [1644]
+INFO:sanic.server:Worker complete [1644]
+INFO:sanic.server:Starting worker [1781]
+INFO:__mp_main__:list index out of range
+INFO:__mp_main__:name 'is_engraved' is not defined
+INFO:sanic.server:Stopping worker [1781]
+INFO:sanic.server:Worker complete [1781]
+INFO:sanic.server:Starting worker [1785]
+INFO:__mp_main__:name 'point' is not defined
+INFO:__mp_main__:name 'point' is not defined
+INFO:sanic.server:Stopping worker [1785]
+INFO:sanic.server:Worker complete [1785]
+INFO:sanic.server:Starting worker [1789]
+INFO:__mp_main__:name 'point' is not defined
+INFO:__mp_main__:name 'point' is not defined
+INFO:sanic.server:Stopping worker [1789]
+INFO:sanic.server:Worker complete [1789]
+INFO:sanic.server:Starting worker [1795]
+INFO:sanic.server:Stopping worker [1795]
+INFO:sanic.server:Worker complete [1795]
+INFO:sanic.server:Starting worker [1800]
+INFO:sanic.server:Stopping worker [1800]
+INFO:sanic.server:Worker complete [1800]
+INFO:sanic.root:Received signal SIGTERM. Shutting down.
+INFO:sanic.root:Shutdown interrupted. Killing.
+INFO:sanic.root:Killing Sanic-Server-0-0 [1805]
+INFO:sanic.root:Killing Sanic-Reloader-0 [1336]
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-41-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [1982]
+INFO:sanic.server:Stopping worker [1982]
+INFO:sanic.server:Worker complete [1982]
+INFO:sanic.server:Starting worker [2010]
+INFO:__mp_main__:list index out of range
+INFO:__mp_main__:
+INFO:sanic.server:Stopping worker [2010]
+INFO:sanic.server:Worker complete [2010]
+INFO:sanic.server:Starting worker [2464]
+INFO:sanic.server:Stopping worker [2464]
+INFO:sanic.server:Worker complete [2464]
+INFO:sanic.server:Starting worker [2468]
+INFO:__mp_main__:list index out of range
+INFO:__mp_main__:list index out of range
+INFO:__mp_main__:list index out of range
+INFO:__mp_main__:list index out of range
