@@ -479,3 +479,6 @@ INFO:sanic.server:Starting worker [17416]
 [34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17416][0m
 [34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17416][0m
 [34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[18928][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=864, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [18928]
