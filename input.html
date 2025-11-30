@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AOCD*</title>
-    <link rel="icon" href="/static/img/rocket.png">
+    <title>AOCD* - {{PROBLEM_NAME}}</title>
+    <link rel="icon" href="/static/img/dragon.svg">
     <link rel="stylesheet" href="/static/css/site.css">
 	<script type="module" src="https://cdn.jsdelivr.net/gh/starfederation/datastar@1.0.0-RC.6/bundles/datastar.js"></script>
 </head>
 <body class="gc">
-    <h1 class="gt-xl gp-m">Your input here</h1>
+    <h1 class="gt-xl gp-m"><a href="{{PROBLEM_URL}}" target="_blank">{{PROBLEM_NAME}}</a></h1>
     <form data-on:submit="@post('/solve', {openWhenHidden: true})">
-    <input id="user-input" type="text" required placeholder="A=[25,9]" data-bind:input>
+        <input type="hidden" name="problem_id" value="{{PROBLEM_ID}}">
+        <input id="user-input" name="input" type="text" required placeholder="{{INPUT_PLACEHOLDER}}" data-bind:input>
     </form>
 </body>
 </html>

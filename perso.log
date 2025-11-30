@@ -228,3 +228,254 @@ INFO:__mp_main__:list index out of range
 INFO:__mp_main__:list index out of range
 INFO:__mp_main__:list index out of range
 INFO:__mp_main__:list index out of range
+INFO:sanic.root:
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v25.3.0                          │
+  │                Goin' Fast @ aoc.sock http://...                │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │         app: __main__                  │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │        mode: production, single worker │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │      server: sanic, HTTP/1.1           │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │      python: 3.12.10                   │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │    platform: Windows-11-10.0.26200-SP0 │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ auto-reload: enabled                   │
+  │ [48;2;255;13;104m                     [0m │    packages: sanic-routing==23.12.0    │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+[33mWARNING[0m:sanic.error:[33mSanic is running in PRODUCTION mode. Consider using '--debug' or '--dev' while actively developing your application.[0m
+[31mERROR[0m:sanic.error:Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "C:\Users\louis\Code\sites\datastar-aoc\.venv\Lib\site-packages\sanic\mixins\startup.py", line 1043, in serve
+    configure_socket(server_info.settings)
+  File "C:\Users\louis\Code\sites\datastar-aoc\.venv\Lib\site-packages\sanic\server\socket.py", line 110, in configure_socket
+    sock = bind_unix_socket(unix, backlog=backlog)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\louis\Code\sites\datastar-aoc\.venv\Lib\site-packages\sanic\server\socket.py", line 60, in bind_unix_socket
+    sock = socket.socket(socket.AF_UNIX)
+                         ^^^^^^^^^^^^^^
+AttributeError: module 'socket' has no attribute 'AF_UNIX'
+INFO:sanic.root:Server Stopped
+INFO:sanic.root:
+  ┌────────────────────────────────────────────────────────────────┐
+  │                         Sanic v25.3.0                          │
+  │               Goin' Fast @ http://127.0.0.1:8000               │
+  ├───────────────────────┬────────────────────────────────────────┤
+  │ [48;2;255;13;104m                     [0m │         app: __main__                  │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▄███ █████ ██    [0m │        mode: debug, single worker      │
+  │ [38;2;255;255;255;48;2;255;13;104m   ██                [0m │      server: sanic, HTTP/1.1           │
+  │ [38;2;255;255;255;48;2;255;13;104m    ▀███████ ███▄    [0m │      python: 3.12.10                   │
+  │ [38;2;255;255;255;48;2;255;13;104m                ██   [0m │    platform: Windows-11-10.0.26200-SP0 │
+  │ [38;2;255;255;255;48;2;255;13;104m   ████ ████████▀    [0m │ auto-reload: enabled                   │
+  │ [48;2;255;13;104m                     [0m │    packages: sanic-routing==23.12.0    │
+  │ Build Fast. Run Fast. │                                        │
+  └───────────────────────┴────────────────────────────────────────┘
+
+[34mDEBUG[0m:sanic.root:Creating multiprocessing context using 'spawn'
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Reloader-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[15296][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=948, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [15296]
+[34mDEBUG[0m:sanic.root:Error Page: The client accepts */*, using 'text' from any
+[34mDEBUG[0m:sanic.root:Error Page: The client accepts */*, using 'text' from any
+[34mDEBUG[0m:sanic.root:Error Page: The client accepts */*, using 'text' from any
+[34mDEBUG[0m:sanic.root:Error Page: The client accepts */*, using 'text' from any
+[34mDEBUG[0m:sanic.root:Error Page: The client accepts */*, using 'text' from any
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[15296][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[15296][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17816][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=932, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [17816]
+[34mDEBUG[0m:sanic.root:Error Page: The client accepts */*, using 'text' from any
+INFO:__mp_main__:list index out of range
+[34mDEBUG[0m:sanic.root:Error Page: The client accepts */*, using 'text' from any
+[34mDEBUG[0m:sanic.root:Error Page: The client accepts */*, using 'text' from any
+[34mDEBUG[0m:sanic.root:Error Page: The client accepts */*, using 'text' from any
+INFO:__mp_main__:list index out of range
+[34mDEBUG[0m:sanic.root:KeepAlive Timeout. Closing connection.
+[34mDEBUG[0m:sanic.root:KeepAlive Timeout. Closing connection.
+[34mDEBUG[0m:sanic.root:KeepAlive Timeout. Closing connection.
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17816][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17816][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[3448][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[16816][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=808, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [16816]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[16816][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[16816][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[8832][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=908, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [8832]
+[34mDEBUG[0m:sanic.root:Error Page: The client accepts */*, using 'text' from any
+WARNING:asyncio:Executing <Task pending name='Task-8' coro=<HttpProtocol.connection_task() running at C:\Users\louis\Code\sites\datastar-aoc\.venv\Lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\futures.py:389, Task.task_wakeup()] created at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py:448> created at C:\Users\louis\Code\sites\datastar-aoc\.venv\Lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 0.125 seconds
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[8832][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[8832][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17404][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=824, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [17404]
+[34mDEBUG[0m:sanic.root:Error Page: The client accepts */*, using 'text' from any
+[34mDEBUG[0m:sanic.root:Error Page: The client accepts */*, using 'text' from any
+[34mDEBUG[0m:sanic.root:KeepAlive Timeout. Closing connection.
+[34mDEBUG[0m:sanic.root:KeepAlive Timeout. Closing connection.
+[34mDEBUG[0m:sanic.root:KeepAlive Timeout. Closing connection.
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17404][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17404][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[13120][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=196, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [13120]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[13120][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[13120][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[5508][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=804, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [5508]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[5508][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[5508][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17432][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=860, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [17432]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17432][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17432][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[4500][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=932, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [4500]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[4500][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[4500][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[16112][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=892, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [16112]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[16112][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[16112][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[11036][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=860, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [11036]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[11036][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[11036][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17984][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=836, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [17984]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17984][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17984][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[11320][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=828, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [11320]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[11320][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[11320][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[18428][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=896, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [18428]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[18428][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[18428][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[18188][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=880, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [18188]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[18188][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[18188][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[18236][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=672, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [18236]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[18236][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[18236][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[18360][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=860, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [18360]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[18360][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[18360][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[12040][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=868, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [12040]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[12040][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[12040][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[10188][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=940, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [10188]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[10188][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[10188][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[4512][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=964, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [4512]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[4512][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[4512][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[11752][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=904, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [11752]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[11752][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[11752][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[5028][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=844, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [5028]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[5028][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[5028][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17936][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=788, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [17936]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17936][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17936][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[13752][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=872, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [13752]
+INFO:__mp_main__:list index out of range
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[13752][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[13752][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[9768][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=824, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [9768]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[9768][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[9768][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[12276][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=908, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [12276]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[12276][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[12276][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[5228][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=784, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [5228]
+WARNING:asyncio:Executing <Task pending name='Task-8' coro=<HttpProtocol.connection_task() running at C:\Users\louis\Code\sites\datastar-aoc\.venv\Lib\site-packages\sanic\server\protocols\http_protocol.py:160> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\futures.py:389, Task.task_wakeup()] created at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py:448> created at C:\Users\louis\Code\sites\datastar-aoc\.venv\Lib\site-packages\sanic\server\protocols\http_protocol.py:299> took 0.109 seconds
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[5228][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[5228][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[3584][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=872, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [3584]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[3584][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[3584][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[19280][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=848, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [19280]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[19280][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[19280][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m
+[34mDEBUG[0m:sanic.root:[34mProcess ack: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17416][0m
+INFO:asyncio:<Server sockets=(<asyncio.TransportSocket fd=740, family=2, type=1, proto=6, laddr=('127.0.0.1', 8000)>,)> is serving
+INFO:sanic.server:Starting worker [17416]
+[34mDEBUG[0m:sanic.root:[34mRestarting a process: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17416][0m
+[34mDEBUG[0m:sanic.root:[34mBegin restart termination: [1m[38;2;255;13;104mSanic-Server-0-0 [34m[17416][0m
+[34mDEBUG[0m:sanic.root:[34mStarting a process: [1m[38;2;255;13;104mSanic-Server-0-0[0m

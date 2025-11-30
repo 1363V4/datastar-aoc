@@ -1,12 +1,12 @@
+import asyncio
 import logging
-from math import trunc
 from array import array
 
 
 logger = logging.getLogger(__name__)
 
 
-async def evc2(A):
+async def evc25d2(A):
     async def view():
         html_list = ['''
 <body class="gc">
