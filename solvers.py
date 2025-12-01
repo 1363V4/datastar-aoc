@@ -58,3 +58,32 @@ async def evc25d2(A):
             engraved = is_engraved(point)
             if engraved:
                 yield f'<div id="x{point[0]}y{point[1]}" class="cell" engraved></div>'
+
+
+async def aoc25d1(L):
+    async def view(data):
+        html = f'''
+<body class="gc">
+<div id="inst">{data['inst']}</div>
+<div id="cross">{data['cross']}</div>
+<form id="totoform" data-preserve-attr></form>
+</body>
+'''
+        return html
+
+    dial, size = 50, 100
+    data = {'inst': "", 'cross': 0}
+
+    for instruction in L:
+        data['inst'] = f"Instruction: {instruction[0]}{instruction[1]:>02}"
+        turn, value = instruction[0], instruction[1]
+        data['cross'] += value // size
+        value = value % size # normalize
+        turn = -1 if turn == "L" else 1
+        start_value = dial
+        end_value = dial + turn * value
+        if (end_value <= 0 and start_value) or end_value >= size:
+            data['cross'] += 1 # crossed
+        dial = end_value % size
+        html = await view(data)
+        yield html

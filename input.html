@@ -10,8 +10,9 @@
 </head>
 <body class="gc">
     <h1 class="gt-xl gp-m"><a href="{{PROBLEM_URL}}" target="_blank">{{PROBLEM_NAME}}</a></h1>
-    <form data-on:submit="@post('/solve', {openWhenHidden: true})">
-        <input type="hidden" name="problem_id" value="{{PROBLEM_ID}}">
+    <form id="totoform" data-on:submit="@post('/solve', {openWhenHidden: true})" data-preserve-attr>
+    	<div id="target"></div>
+    	<div data-signals:problem_id="'{{PROBLEM_ID}}'"></div>
         <input id="user-input" name="input" type="text" required placeholder="{{INPUT_PLACEHOLDER}}" data-bind:input>
     </form>
 </body>
