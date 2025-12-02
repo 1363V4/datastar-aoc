@@ -56,3 +56,28 @@ button:hover {
 		}
 	}
 }
+
+/* AOC1 */
+
+#lock_wrapper {
+	border: 1px solid var(--silver)
+}
+
+@property --turn {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: .5turn;
+}
+
+#lock {
+	width: 25rem;
+	aspect-ratio: 1/1;
+	rotate: Z var(--turn);
+	transition: 1s ease-out;
+	mix-blend-mode: hard-light;
+	filter: drop-shadow(0px 0px 4px var(--silver))
+}
+
+#cross {
+	color: var(--gold)
+}

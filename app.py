@@ -85,7 +85,8 @@ async def solve(request):
             cached_result = app.ctx.cache[cache_key]
             for html_chunk in cached_result:
                 yield SSE.patch_elements(html_chunk)
-                await asyncio.sleep(.001)
+                await asyncio.sleep(1)
+            logger.info("You're so cache :o")
             return
 
         solver_func = None
@@ -119,11 +120,10 @@ async def solve(request):
 
         cached_result = []
         async for html_chunk in solver_func(parsed_input):
-            logger.info(html_chunk)
             if html_chunk:
                 cached_result.append(html_chunk)
                 yield SSE.patch_elements(html_chunk)
-            await asyncio.sleep(2)
+            await asyncio.sleep(1)
         app.ctx.cache[cache_key] = cached_result
         logger.info("Another good solve sir :)")
 

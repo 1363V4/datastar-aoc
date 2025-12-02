@@ -63,19 +63,28 @@ async def evc25d2(A):
 async def aoc25d1(L):
     async def view(data):
         html = f'''
-<body class="gc">
-<div id="inst">{data['inst']}</div>
-<div id="cross">{data['cross']}</div>
+<body class="gc gf">
+<div data-init="document.documentElement.style.setProperty('--turn', '{data['angle']}' + 'turn')"></div>
+<div id="lock_wrapper" class="gg10 gp-m">
+    <img id="lock" src="/static/img/lock.png">
+    <div class="gc gs">
+        <p id="inst" class="gt-l">Instruction: <b>{data['inst']}</b></p>
+        <p id="cross">0-crossing: <b>{data['cross']} times!</b></p>
+    </div>
+</div>
 <form id="totoform" data-preserve-attr></form>
 </body>
 '''
         return html
 
     dial, size = 50, 100
-    data = {'inst': "", 'cross': 0}
+    data = {'inst': "", 'cross': 0, 'angle': 0.5}
+
+    html = await view(data)
+    yield html
 
     for instruction in L:
-        data['inst'] = f"Instruction: {instruction[0]}{instruction[1]:>02}"
+        data['inst'] = f"{instruction[0]}{instruction[1]:>02}"
         turn, value = instruction[0], instruction[1]
         data['cross'] += value // size
         value = value % size # normalize
@@ -85,5 +94,6 @@ async def aoc25d1(L):
         if (end_value <= 0 and start_value) or end_value >= size:
             data['cross'] += 1 # crossed
         dial = end_value % size
+        data['angle'] = dial/100
         html = await view(data)
         yield html
