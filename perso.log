@@ -38,3 +38,1774 @@ INFO:__mp_main__:Another good solve sir :)
 INFO:__mp_main__:Another good solve sir :)
 INFO:__mp_main__:You're so cache :o
 INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:You're so cache :o
+INFO:__mp_main__:
+INFO:__mp_main__:You're so cache :o
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:
+INFO:__mp_main__:
+INFO:__mp_main__:invalid literal for int() with base 10: '2077-25471,4343258-4520548,53-81,43661-93348,6077-11830,2121124544-2121279534,631383-666113,5204516-5270916,411268-591930,783-1147,7575717634-7575795422,8613757494-8613800013,4-19,573518173-573624458
+INFO:__mp_main__:You're so cache :o
+INFO:__mp_main__:string index out of range
+INFO:__mp_main__:
+INFO:__mp_main__:
+INFO:__mp_main__:
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:You're so cache :o
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:invalid literal for int() with base 10: ''
+INFO:__mp_main__:Another good solve sir :)
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/static/img/'
+Traceback (most recent call last):
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/mixins/static.py", line 332, in _static_request_handler
+    return await file(file_path, headers=headers, _range=_range)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/response/convenience.py", line 282, in file
+    async with await open_async(location, mode="rb") as f:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/aiofiles/base.py", line 73, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/aiofiles/base.py", line 69, in __await__
+    self._obj = yield from self._coro.__await__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/aiofiles/threadpool/__init__.py", line 93, in _open
+    f = await loop.run_in_executor(executor, cb)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/le/aoc/static/img'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/mixins/static.py", line 334, in _static_request_handler
+    return await directory_handler.handle(request, request.path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/handlers/directory.py", line 71, in handle
+    raise IsADirectoryError(f"{self.directory.as_posix()} is a directory")
+IsADirectoryError: /home/le/aoc/static is a directory
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/static/'
+Traceback (most recent call last):
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/mixins/static.py", line 332, in _static_request_handler
+    return await file(file_path, headers=headers, _range=_range)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/response/convenience.py", line 282, in file
+    async with await open_async(location, mode="rb") as f:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/aiofiles/base.py", line 73, in __aenter__
+    return await self
+           ^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/aiofiles/base.py", line 69, in __await__
+    self._obj = yield from self._coro.__await__()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/aiofiles/threadpool/__init__.py", line 93, in _open
+    f = await loop.run_in_executor(executor, cb)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IsADirectoryError: [Errno 21] Is a directory: '/home/le/aoc/static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/mixins/static.py", line 334, in _static_request_handler
+    return await directory_handler.handle(request, request.path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/handlers/directory.py", line 71, in handle
+    raise IsADirectoryError(f"{self.directory.as_posix()} is a directory")
+IsADirectoryError: /home/le/aoc/static is a directory
+INFO:__mp_main__:
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:You're so cache :o
+INFO:__mp_main__:You're so cache :o
+INFO:__mp_main__:string index out of range
+INFO:__mp_main__:You're so cache :o
+INFO:__mp_main__:You're so cache :o
+INFO:__mp_main__:You're so cache :o
+INFO:__mp_main__:
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:You're so cache :o
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:You're so cache :o
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:string index out of range
+INFO:__mp_main__:You're so cache :o
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:Another good solve sir :)
+INFO:sanic.server:Stopping worker [2400]
+INFO:sanic.server:Worker complete [2400]
+INFO:sanic.server:Starting worker [29450]
+INFO:sanic.server:Stopping worker [29450]
+INFO:sanic.server:Worker complete [29450]
+INFO:sanic.server:Starting worker [29658]
+INFO:sanic.server:Stopping worker [29658]
+INFO:sanic.server:Worker complete [29658]
+INFO:sanic.server:Starting worker [29664]
+INFO:sanic.server:Stopping worker [29664]
+INFO:sanic.server:Worker complete [29664]
+INFO:sanic.server:Starting worker [29671]
+INFO:sanic.server:Stopping worker [29671]
+INFO:sanic.server:Worker complete [29671]
+INFO:sanic.server:Starting worker [29675]
+INFO:sanic.server:Stopping worker [29675]
+INFO:sanic.server:Worker complete [29675]
+INFO:sanic.server:Starting worker [29679]
+INFO:sanic.server:Stopping worker [29679]
+INFO:sanic.server:Worker complete [29679]
+INFO:sanic.server:Starting worker [29701]
+INFO:sanic.server:Stopping worker [29701]
+INFO:sanic.server:Worker complete [29701]
+INFO:sanic.server:Starting worker [29762]
+INFO:sanic.root:Received signal SIGTERM. Shutting down.
+INFO:sanic.root:Received signal SIGTERM. Shutting down.
+INFO:sanic.server:Stopping worker [29762]
+ERROR:sanic.error:[Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/serve.py", line 121, in worker_serve
+    return _serve_http_1(
+           ^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/server/runners.py", line 304, in _serve_http_1
+    _run_server_forever(
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/server/runners.py", line 190, in _run_server_forever
+    cleanup()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/server/runners.py", line 299, in _cleanup
+    app.set_serving(False)
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/app.py", line 2423, in set_serving
+    self.multiplexer.set_serving(serving)
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/multiplexer.py", line 91, in set_serving
+    **self._state._state[self.name],
+      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<string>", line 2, in __getitem__
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/managers.py", line 827, in _callmethod
+    conn.send((self._id, methodname, args, kwds))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+ERROR:sanic.error:Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/mixins/startup.py", line 1141, in serve
+    manager.run()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 195, in run
+    self.monitor()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 295, in monitor
+    cycle = self._poll_monitor()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 455, in _poll_monitor
+    if self.monitor_subscriber.poll(0.1):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 1136, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 391, in shutdown_signal
+    self.shutdown()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 397, in shutdown
+    process.terminate()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/process.py", line 108, in terminate
+    self.set_state(ProcessState.TERMINATED, force=True)
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/process.py", line 56, in set_state
+    **self.worker_state[self.name],
+      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<string>", line 2, in __getitem__
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/managers.py", line 827, in _callmethod
+    conn.send((self._id, methodname, args, kwds))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+INFO:sanic.root:Server Stopped
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-41-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [29832]
+INFO:sanic.server:Stopping worker [29832]
+INFO:sanic.server:Worker complete [29832]
+INFO:sanic.server:Starting worker [29852]
+INFO:sanic.server:Stopping worker [29852]
+INFO:sanic.server:Worker complete [29852]
+INFO:sanic.server:Starting worker [29856]
+INFO:sanic.server:Stopping worker [29856]
+INFO:sanic.server:Worker complete [29856]
+INFO:sanic.root:Received signal SIGTERM. Shutting down.
+INFO:sanic.root:Received signal SIGTERM. Shutting down.
+ERROR:sanic.error:Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/mixins/startup.py", line 1141, in serve
+    manager.run()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 195, in run
+    self.monitor()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 295, in monitor
+    cycle = self._poll_monitor()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 455, in _poll_monitor
+    if self.monitor_subscriber.poll(0.1):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 1136, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 391, in shutdown_signal
+    self.shutdown()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 397, in shutdown
+    process.terminate()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/process.py", line 108, in terminate
+    self.set_state(ProcessState.TERMINATED, force=True)
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/process.py", line 56, in set_state
+    **self.worker_state[self.name],
+      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<string>", line 2, in __getitem__
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/managers.py", line 827, in _callmethod
+    conn.send((self._id, methodname, args, kwds))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+INFO:sanic.root:Server Stopped
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-41-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [30031]
+INFO:sanic.server:Stopping worker [30031]
+INFO:sanic.server:Worker complete [30031]
+INFO:sanic.server:Starting worker [30068]
+INFO:__mp_main__:1
+INFO:__mp_main__:2
+INFO:__mp_main__:3
+INFO:__mp_main__:_
+INFO:__mp_main__:+
+INFO:__mp_main__:*
+INFO:__mp_main__:+
+INFO:__mp_main__:+
+INFO:sanic.server:Stopping worker [30068]
+INFO:sanic.server:Worker complete [30068]
+INFO:sanic.server:Starting worker [30073]
+INFO:__mp_main__:1
+INFO:__mp_main__:2
+INFO:__mp_main__:3
+INFO:__mp_main__:1
+INFO:__mp_main__:_
+INFO:sanic.server:Stopping worker [30073]
+INFO:sanic.server:Worker complete [30073]
+INFO:sanic.server:Starting worker [30077]
+INFO:__mp_main__:C
+INFO:__mp_main__:1
+INFO:__mp_main__:2
+INFO:__mp_main__:3
+INFO:__mp_main__:C
+INFO:__mp_main__:1
+INFO:__mp_main__:1
+INFO:__mp_main__:1
+INFO:__mp_main__:1
+INFO:__mp_main__:_
+INFO:__mp_main__:2
+INFO:__mp_main__:R
+INFO:__mp_main__:1
+INFO:__mp_main__:2
+INFO:__mp_main__:3
+INFO:__mp_main__:6
+INFO:__mp_main__:5
+INFO:__mp_main__:4
+INFO:__mp_main__:7
+INFO:__mp_main__:7
+INFO:__mp_main__:C
+INFO:__mp_main__:C
+INFO:__mp_main__:C
+INFO:__mp_main__:C
+INFO:__mp_main__:C
+INFO:__mp_main__:4
+INFO:__mp_main__:5
+INFO:__mp_main__:6
+INFO:__mp_main__:7
+INFO:__mp_main__:8
+INFO:__mp_main__:9
+INFO:__mp_main__:C
+INFO:__mp_main__:C
+INFO:__mp_main__:C
+INFO:__mp_main__:C
+INFO:__mp_main__:C
+INFO:__mp_main__:C
+INFO:__mp_main__:C
+INFO:__mp_main__:C
+INFO:__mp_main__:2
+INFO:__mp_main__:3
+INFO:__mp_main__:4
+INFO:__mp_main__:5
+INFO:__mp_main__:6
+INFO:__mp_main__:_
+INFO:__mp_main__:_
+INFO:__mp_main__:C
+INFO:__mp_main__:C
+INFO:__mp_main__:R
+INFO:__mp_main__:_
+INFO:__mp_main__:_
+INFO:__mp_main__:4
+INFO:__mp_main__:R
+INFO:__mp_main__:4
+INFO:__mp_main__:_
+INFO:__mp_main__:_
+INFO:__mp_main__:_
+INFO:sanic.server:Stopping worker [30077]
+INFO:sanic.server:Worker complete [30077]
+INFO:sanic.server:Starting worker [30090]
+INFO:sanic.root:Received signal SIGTERM. Shutting down.
+INFO:sanic.root:Received signal SIGTERM. Shutting down.
+INFO:sanic.server:Stopping worker [30090]
+ERROR:sanic.error:[Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/serve.py", line 121, in worker_serve
+    return _serve_http_1(
+           ^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/server/runners.py", line 304, in _serve_http_1
+    _run_server_forever(
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/server/runners.py", line 190, in _run_server_forever
+    cleanup()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/server/runners.py", line 299, in _cleanup
+    app.set_serving(False)
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/app.py", line 2423, in set_serving
+    self.multiplexer.set_serving(serving)
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/multiplexer.py", line 91, in set_serving
+    **self._state._state[self.name],
+      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<string>", line 2, in __getitem__
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/managers.py", line 827, in _callmethod
+    conn.send((self._id, methodname, args, kwds))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+ERROR:sanic.error:Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/mixins/startup.py", line 1141, in serve
+    manager.run()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 195, in run
+    self.monitor()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 295, in monitor
+    cycle = self._poll_monitor()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 455, in _poll_monitor
+    if self.monitor_subscriber.poll(0.1):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 1136, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 391, in shutdown_signal
+    self.shutdown()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 397, in shutdown
+    process.terminate()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/process.py", line 108, in terminate
+    self.set_state(ProcessState.TERMINATED, force=True)
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/process.py", line 56, in set_state
+    **self.worker_state[self.name],
+      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<string>", line 2, in __getitem__
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/managers.py", line 827, in _callmethod
+    conn.send((self._id, methodname, args, kwds))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+INFO:sanic.root:Server Stopped
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-41-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [30140]
+INFO:__mp_main__:1
+INFO:__mp_main__:2
+INFO:__mp_main__:3
+INFO:__mp_main__:R
+INFO:__mp_main__:1
+INFO:__mp_main__:2
+INFO:__mp_main__:9
+INFO:__mp_main__:+
+INFO:__mp_main__:['1', '2', '9']
+INFO:sanic.server:Stopping worker [30140]
+INFO:sanic.server:Worker complete [30140]
+INFO:sanic.server:Starting worker [30163]
+INFO:sanic.server:Stopping worker [30163]
+INFO:sanic.server:Worker complete [30163]
+INFO:sanic.server:Starting worker [30166]
+INFO:__mp_main__:1
+INFO:__mp_main__:['']
+INFO:__mp_main__:2
+INFO:__mp_main__:['1']
+INFO:__mp_main__:3
+INFO:__mp_main__:['12']
+INFO:__mp_main__:R
+INFO:__mp_main__:['123']
+INFO:__mp_main__:2
+INFO:__mp_main__:['123', '']
+INFO:__mp_main__:3
+INFO:__mp_main__:['123', '2']
+INFO:__mp_main__:+
+INFO:__mp_main__:['123', '23']
+INFO:__mp_main__:['2', '3']
+INFO:sanic.server:Stopping worker [30166]
+INFO:sanic.server:Worker complete [30166]
+INFO:sanic.server:Starting worker [30172]
+INFO:sanic.server:Stopping worker [30172]
+INFO:sanic.server:Worker complete [30172]
+INFO:sanic.server:Starting worker [30175]
+INFO:__mp_main__:1
+INFO:__mp_main__:['1']
+INFO:__mp_main__:2
+INFO:__mp_main__:['12']
+INFO:__mp_main__:R
+INFO:__mp_main__:['12', '']
+INFO:__mp_main__:2
+INFO:__mp_main__:['12', '2']
+INFO:__mp_main__:1
+INFO:__mp_main__:['12', '21']
+INFO:__mp_main__:+
+INFO:__mp_main__:['12', '21']
+INFO:__mp_main__:['12', '21']
+INFO:__mp_main__:1
+INFO:__mp_main__:['12', '211']
+INFO:__mp_main__:3
+INFO:__mp_main__:['12', '2113']
+INFO:__mp_main__:+
+INFO:__mp_main__:['__12', '2113']
+INFO:__mp_main__:['12', '2113']
+INFO:sanic.server:Stopping worker [30175]
+INFO:sanic.server:Worker complete [30175]
+INFO:sanic.server:Starting worker [30179]
+INFO:__mp_main__:_
+INFO:__mp_main__:['_']
+INFO:__mp_main__:1
+INFO:__mp_main__:['_1']
+INFO:__mp_main__:R
+INFO:__mp_main__:['_1', '']
+INFO:__mp_main__:2
+INFO:__mp_main__:['_1', '2']
+INFO:__mp_main__:1
+INFO:__mp_main__:['_1', '21']
+INFO:__mp_main__:+
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+              ^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'replace'
+INFO:sanic.server:Stopping worker [30179]
+INFO:sanic.server:Worker complete [30179]
+INFO:sanic.server:Starting worker [30183]
+INFO:__mp_main__:_
+INFO:__mp_main__:['_']
+INFO:__mp_main__:1
+INFO:__mp_main__:['_1']
+INFO:__mp_main__:+
+INFO:__mp_main__:2
+INFO:__mp_main__:['_12']
+INFO:__mp_main__:R
+INFO:__mp_main__:['_12', '']
+INFO:__mp_main__:2
+INFO:__mp_main__:['_12', '2']
+INFO:__mp_main__:1
+INFO:__mp_main__:['_12', '21']
+INFO:__mp_main__:+
+INFO:__mp_main__:<zip object at 0x7fda183f4840>
+INFO:__mp_main__:['_12', '21']
+INFO:__mp_main__:C
+INFO:__mp_main__:['_12', '2']
+INFO:__mp_main__:C
+INFO:__mp_main__:['_12', '']
+INFO:__mp_main__:C
+INFO:__mp_main__:['_12', '']
+INFO:__mp_main__:C
+INFO:__mp_main__:['_12', '']
+INFO:__mp_main__:_
+INFO:__mp_main__:['_']
+INFO:__mp_main__:1
+INFO:__mp_main__:['_1']
+INFO:__mp_main__:2
+INFO:__mp_main__:['2']
+INFO:__mp_main__:_
+INFO:__mp_main__:['2_']
+INFO:__mp_main__:R
+INFO:__mp_main__:['2_', '']
+INFO:__mp_main__:1
+INFO:__mp_main__:['2_', '1']
+INFO:__mp_main__:1
+INFO:__mp_main__:['2_', '11']
+INFO:__mp_main__:+
+INFO:__mp_main__:<zip object at 0x7fda183a7f40>
+INFO:__mp_main__:['2_', '11']
+INFO:sanic.server:Stopping worker [30183]
+INFO:sanic.server:Worker complete [30183]
+INFO:sanic.server:Starting worker [30189]
+INFO:__mp_main__:1
+INFO:__mp_main__:['1']
+INFO:__mp_main__:_
+INFO:__mp_main__:['1_']
+INFO:__mp_main__:R
+INFO:__mp_main__:['1_', '']
+INFO:__mp_main__:2
+INFO:__mp_main__:['1_', '2']
+INFO:__mp_main__:1
+INFO:__mp_main__:['1_', '21']
+INFO:__mp_main__:+
+INFO:__mp_main__:1
+INFO:__mp_main__:21
+INFO:__mp_main__:<zip object at 0x7fd919d53640>
+INFO:__mp_main__:['1_', '21']
+INFO:sanic.server:Stopping worker [30189]
+INFO:sanic.server:Worker complete [30189]
+INFO:sanic.server:Starting worker [30193]
+INFO:__mp_main__:_
+INFO:__mp_main__:['_']
+INFO:__mp_main__:C
+INFO:__mp_main__:['']
+INFO:__mp_main__:C
+INFO:__mp_main__:['']
+INFO:__mp_main__:C
+INFO:__mp_main__:['']
+INFO:__mp_main__:1
+INFO:__mp_main__:['1']
+INFO:__mp_main__:_
+INFO:__mp_main__:['1_']
+INFO:__mp_main__:+
+INFO:__mp_main__:R
+INFO:__mp_main__:['1_', '']
+INFO:__mp_main__:2
+INFO:__mp_main__:['1_', '2']
+INFO:__mp_main__:1
+INFO:__mp_main__:['1_', '21']
+INFO:__mp_main__:+
+INFO:__mp_main__:12
+INFO:__mp_main__:1
+INFO:__mp_main__:<zip object at 0x7feb0e7a5980>
+INFO:__mp_main__:['1_', '21']
+INFO:sanic.server:Stopping worker [30193]
+INFO:sanic.server:Worker complete [30193]
+INFO:sanic.server:Starting worker [30197]
+INFO:__mp_main__:['1']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/1'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 193, in calc_value
+    display = display % 1000000000
+              ~~~~~~~~^~~~~~~~~~~~
+TypeError: not all arguments converted during string formatting
+INFO:__mp_main__:['11']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/1'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 193, in calc_value
+    display = display % 1000000000
+              ~~~~~~~~^~~~~~~~~~~~
+TypeError: not all arguments converted during string formatting
+INFO:__mp_main__:['111']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/1'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 193, in calc_value
+    display = display % 1000000000
+              ~~~~~~~~^~~~~~~~~~~~
+TypeError: not all arguments converted during string formatting
+INFO:__mp_main__:['1111']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/1'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 193, in calc_value
+    display = display % 1000000000
+              ~~~~~~~~^~~~~~~~~~~~
+TypeError: not all arguments converted during string formatting
+INFO:sanic.server:Stopping worker [30197]
+INFO:sanic.server:Worker complete [30197]
+INFO:sanic.server:Starting worker [30201]
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['12']
+INFO:__mp_main__:['123']
+INFO:__mp_main__:['123', '']
+INFO:__mp_main__:['123', '4']
+INFO:__mp_main__:['123', '45']
+INFO:__mp_main__:['123', '45', '']
+INFO:__mp_main__:['123', '45', '6']
+INFO:__mp_main__:['123', '45', '6']
+INFO:__mp_main__:['123', '45', '']
+INFO:__mp_main__:['123', '45', '']
+INFO:__mp_main__:['123', '45', '6']
+INFO:__mp_main__:['123', '45', '64']
+INFO:__mp_main__:['123', '45', '64_']
+INFO:__mp_main__:['123', '45', '64_', '']
+INFO:__mp_main__:['123', '45', '64_', '2']
+INFO:__mp_main__:['123', '45', '64_', '23']
+INFO:__mp_main__:['123', '45', '64_', '23_']
+INFO:__mp_main__:['123', '45', '64_', '23_', '']
+INFO:__mp_main__:['123', '45', '64_', '23_', '3']
+INFO:__mp_main__:['123', '45', '64_', '23_', '31']
+INFO:__mp_main__:['123', '45', '64_', '23_', '314']
+INFO:__mp_main__:['123', '45', '64_', '23_', '314']
+INFO:__mp_main__:['', '']
+INFO:__mp_main__:['', '', '']
+INFO:__mp_main__:['', '', '']
+INFO:__mp_main__:['', '', '']
+INFO:sanic.server:Stopping worker [30201]
+INFO:sanic.server:Worker complete [30201]
+INFO:sanic.server:Starting worker [30207]
+INFO:__mp_main__:['6']
+INFO:__mp_main__:['64']
+INFO:__mp_main__:['64_']
+INFO:__mp_main__:['64_', '']
+INFO:__mp_main__:['64_', '2']
+INFO:__mp_main__:['64_', '23']
+INFO:__mp_main__:['64_', '23_']
+INFO:__mp_main__:['64_', '23_', '']
+INFO:__mp_main__:['64_', '23_', '3']
+INFO:__mp_main__:['64_', '23_', '31']
+INFO:__mp_main__:['64_', '23_', '314']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['5']
+INFO:__mp_main__:['51']
+INFO:__mp_main__:['51', '']
+INFO:__mp_main__:['51', '3']
+INFO:__mp_main__:['51', '38']
+INFO:__mp_main__:['51', '387']
+INFO:__mp_main__:['51', '387', '']
+INFO:__mp_main__:['51', '387', '2']
+INFO:__mp_main__:['51', '387', '21']
+INFO:__mp_main__:['51', '387', '215']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['6']
+INFO:__mp_main__:['64']
+INFO:__mp_main__:['64_']
+INFO:__mp_main__:['64_', '']
+INFO:__mp_main__:['64_', '2']
+INFO:__mp_main__:['64_', '23']
+INFO:__mp_main__:['64_', '23_']
+INFO:__mp_main__:['64_', '23__']
+INFO:__mp_main__:['64_', '23___']
+INFO:__mp_main__:['64_', '23____']
+INFO:__mp_main__:['64_', '23___']
+INFO:__mp_main__:['64_', '23__']
+INFO:__mp_main__:['64_', '23_']
+INFO:__mp_main__:['64_', '23_', '']
+INFO:__mp_main__:['64_', '23_', '3']
+INFO:__mp_main__:['64_', '23_', '31']
+INFO:__mp_main__:['64_', '23_', '314']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['5']
+INFO:__mp_main__:['51']
+INFO:__mp_main__:['51', '']
+INFO:__mp_main__:['51', '3']
+INFO:__mp_main__:['51', '38']
+INFO:__mp_main__:['51', '387']
+INFO:__mp_main__:['51', '387', '']
+INFO:__mp_main__:['51', '387', '2']
+INFO:__mp_main__:['51', '387', '21']
+INFO:__mp_main__:['51', '387', '215']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['2']
+INFO:__mp_main__:['25']
+INFO:__mp_main__:['254']
+INFO:__mp_main__:['2542']
+INFO:__mp_main__:['7']
+INFO:__mp_main__:['72']
+INFO:__mp_main__:['723']
+INFO:__mp_main__:['723', '']
+INFO:__mp_main__:['723', '']
+INFO:__mp_main__:['723', '_']
+INFO:__mp_main__:['723', '__']
+INFO:__mp_main__:['723', '___']
+INFO:__mp_main__:['723', '___6']
+INFO:__mp_main__:['2']
+INFO:__mp_main__:['723', '___69']
+INFO:__mp_main__:['22']
+INFO:__mp_main__:['723', '___69', '']
+INFO:__mp_main__:['222']
+INFO:__mp_main__:['723', '___69', '', '']
+INFO:__mp_main__:['723', '___69', '', '', '']
+INFO:__mp_main__:['723', '___69', '', '', '', '']
+INFO:__mp_main__:['2222']
+INFO:__mp_main__:['723', '___69', '', '', '', '', '']
+INFO:__mp_main__:['2222', '']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['', '']
+INFO:__mp_main__:['', '2']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['', '']
+INFO:__mp_main__:['', '2']
+INFO:__mp_main__:['', '']
+INFO:__mp_main__:['', '1']
+INFO:__mp_main__:['', '1_']
+INFO:__mp_main__:['', '1_2']
+INFO:__mp_main__:['', '1_2', '']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/*'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 182, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['', '1_2', '2']
+INFO:__mp_main__:['', '1_2', '2', '']
+INFO:__mp_main__:['', '1_2', '2', '']
+INFO:__mp_main__:['8']
+INFO:__mp_main__:['88']
+INFO:__mp_main__:['8']
+INFO:__mp_main__:['82']
+INFO:__mp_main__:['8']
+INFO:__mp_main__:['8', '']
+INFO:__mp_main__:['5']
+INFO:__mp_main__:['52']
+INFO:__mp_main__:['526']
+INFO:__mp_main__:['5269']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['12']
+INFO:__mp_main__:['123']
+INFO:__mp_main__:['12']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['1', '']
+INFO:__mp_main__:['1', '1']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['11']
+INFO:__mp_main__:['11', '']
+INFO:__mp_main__:['11', '1']
+INFO:__mp_main__:['11', '14']
+INFO:__mp_main__:['11', '147']
+INFO:__mp_main__:['11', '147_']
+INFO:__mp_main__:['11', '147_8']
+INFO:__mp_main__:['11', '147_85']
+INFO:__mp_main__:['11', '147_852']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['11', '147_8522']
+INFO:__mp_main__:['11', '147_85225']
+INFO:__mp_main__:['11', '147_85225']
+INFO:__mp_main__:['11', '147_85225']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/*'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 182, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['11', '147_85225']
+INFO:__mp_main__:['11', '147_85225']
+INFO:__mp_main__:['11', '147_85225']
+INFO:__mp_main__:['11', '147_85225']
+INFO:__mp_main__:['7']
+INFO:__mp_main__:['78']
+INFO:__mp_main__:['788']
+INFO:__mp_main__:['788_']
+INFO:__mp_main__:['788_5']
+INFO:__mp_main__:['788_5', '']
+INFO:__mp_main__:['788_5', '']
+INFO:__mp_main__:['788_5', '3']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/*'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 182, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['788_5', '32']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['2']
+INFO:__mp_main__:['23']
+INFO:__mp_main__:['232']
+INFO:__mp_main__:['232', '']
+INFO:__mp_main__:['232', '']
+INFO:__mp_main__:['232', '1']
+INFO:__mp_main__:['232', '1_']
+INFO:__mp_main__:['232', '1_2']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['', '']
+INFO:__mp_main__:['', '', '']
+INFO:__mp_main__:['', '', '']
+INFO:__mp_main__:['', '', '1']
+INFO:__mp_main__:['', '', '1_']
+INFO:__mp_main__:['', '', '1_2']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['', '', '1_2_']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['', '', '1_2_2']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['', '', '1_2_23']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['', '', '1_2_23', '']
+INFO:__mp_main__:['', '', '1_2_23', '9']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['', '', '1_2_23', '92']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['', '', '1_2_23', '923']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['', '', '1_2_23', '9231']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['11']
+INFO:__mp_main__:['112']
+INFO:__mp_main__:['112', '']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['2']
+INFO:__mp_main__:['23']
+INFO:__mp_main__:['7']
+INFO:__mp_main__:['77']
+INFO:__mp_main__:['777']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['12']
+INFO:__mp_main__:['12', '']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['', '']
+INFO:__mp_main__:['', '1']
+INFO:__mp_main__:['', '12']
+INFO:__mp_main__:['', '12', '']
+INFO:__mp_main__:['', '12', '1']
+INFO:__mp_main__:['', '12', '12']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['12']
+INFO:__mp_main__:['12', '']
+INFO:__mp_main__:['12', '1']
+INFO:__mp_main__:['12', '12']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['2']
+INFO:__mp_main__:['21']
+INFO:__mp_main__:['215']
+INFO:__mp_main__:['2152']
+INFO:__mp_main__:['21525']
+INFO:__mp_main__:['215252']
+INFO:__mp_main__:['2152526']
+INFO:__mp_main__:['2152526', '']
+INFO:__mp_main__:['2152526', '']
+INFO:__mp_main__:['2152526', '']
+INFO:__mp_main__:['2152526', '1']
+INFO:__mp_main__:['2152526', '1_']
+INFO:__mp_main__:['2152526', '1_1']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['_']
+INFO:__mp_main__:['_1']
+INFO:__mp_main__:['_1', '']
+INFO:__mp_main__:['_1', '']
+INFO:__mp_main__:['5']
+INFO:__mp_main__:['52']
+INFO:__mp_main__:['52_']
+INFO:__mp_main__:['52_', '']
+INFO:__mp_main__:['52_', '2']
+INFO:__mp_main__:['52_', '23']
+INFO:__mp_main__:['52_', '23_']
+INFO:__mp_main__:['52_', '23_', '']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/*'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 182, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['52_', '23_', '_']
+INFO:__mp_main__:['52_', '23_', '__']
+INFO:__mp_main__:['52_', '23_', '__2']
+INFO:__mp_main__:['52_', '23_', '__2', '']
+INFO:__mp_main__:['52_', '23_', '__2', '2']
+INFO:__mp_main__:['52_', '23_', '__2', '']
+INFO:__mp_main__:['52_', '23_', '__2', '_']
+INFO:__mp_main__:['52_', '23_', '__2', '_2']
+INFO:__mp_main__:['52_', '23_', '__2', '_23']
+INFO:__mp_main__:['52_', '23_', '__2', '_23', '']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['2']
+INFO:__mp_main__:['23']
+INFO:__mp_main__:['23', '']
+INFO:__mp_main__:['23', '4']
+INFO:__mp_main__:['23', '45']
+INFO:__mp_main__:['23', '45', '']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['11']
+INFO:__mp_main__:['111']
+INFO:__mp_main__:['11']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['_']
+INFO:__mp_main__:['__']
+INFO:__mp_main__:['___']
+INFO:__mp_main__:['___1']
+INFO:__mp_main__:['___11']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['13']
+INFO:__mp_main__:['135']
+INFO:__mp_main__:['1356']
+INFO:__mp_main__:['13566']
+INFO:__mp_main__:['1356']
+INFO:__mp_main__:['135']
+INFO:__mp_main__:['13']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['12']
+INFO:__mp_main__:['125']
+INFO:__mp_main__:['125', '']
+INFO:__mp_main__:['125', '6']
+INFO:__mp_main__:['125', '63']
+INFO:__mp_main__:['125', '632']
+INFO:__mp_main__:['125', '632', '']
+INFO:__mp_main__:['125', '632', '1']
+INFO:__mp_main__:['125', '632', '12']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['3']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['12']
+INFO:__mp_main__:['125']
+INFO:__mp_main__:['1252']
+INFO:__mp_main__:['12523']
+INFO:__mp_main__:['1252']
+INFO:__mp_main__:['125']
+INFO:__mp_main__:['12']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['12']
+INFO:__mp_main__:['12', '']
+INFO:__mp_main__:['12', '1']
+INFO:__mp_main__:['12', '12']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['3']
+INFO:__mp_main__:['33']
+INFO:__mp_main__:['332']
+INFO:__mp_main__:['33']
+INFO:__mp_main__:['3']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['', '']
+INFO:__mp_main__:['', '', '']
+INFO:__mp_main__:['', '', '', '']
+INFO:__mp_main__:['', '', '', '', '']
+INFO:__mp_main__:['', '', '', '', '']
+INFO:__mp_main__:['', '', '', '', '']
+INFO:__mp_main__:['', '', '', '', '']
+INFO:__mp_main__:['', '', '', '', '']
+INFO:__mp_main__:['', '', '', '', '7']
+INFO:__mp_main__:['', '', '', '', '78']
+INFO:__mp_main__:['', '', '', '', '789']
+INFO:__mp_main__:['', '', '', '', '789_']
+INFO:__mp_main__:['', '', '', '', '789_4']
+INFO:__mp_main__:['', '', '', '', '789_45']
+INFO:__mp_main__:['', '', '', '', '789_456']
+INFO:__mp_main__:['', '', '', '', '789_456_']
+INFO:__mp_main__:['', '', '', '', '789_456_1']
+INFO:__mp_main__:['', '', '', '', '789_456_1']
+INFO:__mp_main__:['', '', '', '', '789_456_1']
+INFO:__mp_main__:['', '', '', '', '789_456_1']
+INFO:__mp_main__:['', '', '', '', '789_456_1']
+INFO:__mp_main__:['', '', '', '', '789_456_']
+INFO:__mp_main__:['', '', '', '', '789_456_2']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '7']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_9']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_96']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_96_']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_96_3']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_96_32']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_96_32', '']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_96_32', '1']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_96_32', '15']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_96_32', '15_']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_96_32', '15_6']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_96_32', '15_63']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_96_32', '15_63_']
+INFO:__mp_main__:['', '', '', '', '789_456_2', '74_96_32', '15_63_2']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['12']
+INFO:__mp_main__:['123']
+INFO:__mp_main__:['1236']
+INFO:__mp_main__:['1236', '']
+INFO:__mp_main__:['1236', '7']
+INFO:__mp_main__:['1236', '7', '']
+INFO:__mp_main__:['1236', '7', '8']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['_']
+INFO:__mp_main__:['__']
+INFO:__mp_main__:['___']
+INFO:__mp_main__:['___2']
+INFO:__mp_main__:['___']
+INFO:__mp_main__:['___5']
+INFO:__mp_main__:['___5', '']
+INFO:__mp_main__:['___5', '8']
+INFO:__mp_main__:['___5', '8', '']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['___5', '8', '2']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/+'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 170, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:['___5', '8', '2', '']
+INFO:__mp_main__:['___5', '8', '2', '2']
+ERROR:sanic.error:Exception occurred while handling uri: 'http://aoc.leg.ovh/calc/*'
+Traceback (most recent call last):
+  File "handle_request", line 100, in handle_request
+    except ImportError:
+                        
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/datastar_py/sanic.py", line 74, in wrapper
+    return DatastarResponse(await r)
+                            ^^^^^^^
+  File "/home/le/aoc/app.py", line 182, in calc_value
+    num = int(num.replace("_", ""))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:__mp_main__:Another good solve sir :)
+INFO:sanic.root:Received signal SIGTERM. Shutting down.
+INFO:sanic.root:Received signal SIGTERM. Shutting down.
+INFO:sanic.server:Stopping worker [30207]
+ERROR:sanic.error:[Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/serve.py", line 121, in worker_serve
+    return _serve_http_1(
+           ^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/server/runners.py", line 304, in _serve_http_1
+    _run_server_forever(
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/server/runners.py", line 190, in _run_server_forever
+    cleanup()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/server/runners.py", line 299, in _cleanup
+    app.set_serving(False)
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/app.py", line 2423, in set_serving
+    self.multiplexer.set_serving(serving)
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/multiplexer.py", line 91, in set_serving
+    **self._state._state[self.name],
+      ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<string>", line 2, in __getitem__
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/managers.py", line 827, in _callmethod
+    conn.send((self._id, methodname, args, kwds))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+ERROR:sanic.error:Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/mixins/startup.py", line 1141, in serve
+    manager.run()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 195, in run
+    self.monitor()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 295, in monitor
+    cycle = self._poll_monitor()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 455, in _poll_monitor
+    if self.monitor_subscriber.poll(0.1):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 1136, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 391, in shutdown_signal
+    self.shutdown()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 397, in shutdown
+    process.terminate()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/process.py", line 108, in terminate
+    self.set_state(ProcessState.TERMINATED, force=True)
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/process.py", line 56, in set_state
+    **self.worker_state[self.name],
+      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<string>", line 2, in __getitem__
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/managers.py", line 828, in _callmethod
+    kind, result = conn.recv()
+                   ^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 430, in _recv_bytes
+    buf = self._recv(4)
+          ^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 395, in _recv
+    chunk = read(handle, remaining)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [Errno 104] Connection reset by peer
+INFO:sanic.root:Server Stopped
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-41-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [857]
+INFO:__mp_main__:['9']
+INFO:__mp_main__:['96']
+INFO:__mp_main__:['96', '']
+INFO:__mp_main__:['96', '4']
+INFO:__mp_main__:['96', '45']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['12']
+INFO:__mp_main__:['12', '']
+INFO:__mp_main__:['12', '1']
+INFO:__mp_main__:['12', '12']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['12']
+INFO:__mp_main__:['12', '']
+INFO:__mp_main__:['12', '1']
+INFO:__mp_main__:['12', '12']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['3']
+INFO:__mp_main__:['35']
+INFO:__mp_main__:['35', '']
+INFO:__mp_main__:['35', '1']
+INFO:__mp_main__:['35', '15']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['7']
+INFO:__mp_main__:['78']
+INFO:__mp_main__:['789']
+INFO:__mp_main__:['7895']
+INFO:__mp_main__:['78956']
+INFO:__mp_main__:['789563']
+INFO:__mp_main__:['7895632']
+INFO:__mp_main__:['78956321']
+INFO:__mp_main__:['7895632']
+INFO:__mp_main__:['789563']
+INFO:__mp_main__:['78956']
+INFO:__mp_main__:['7895']
+INFO:__mp_main__:['789']
+INFO:__mp_main__:['78']
+INFO:__mp_main__:['7']
+INFO:__mp_main__:['72']
+INFO:__mp_main__:['722']
+INFO:__mp_main__:['7222']
+INFO:__mp_main__:['72222']
+INFO:__mp_main__:['722222']
+INFO:__mp_main__:['72222']
+INFO:__mp_main__:['7222']
+INFO:__mp_main__:['722']
+INFO:__mp_main__:['72']
+INFO:__mp_main__:['723']
+INFO:__mp_main__:['7235']
+INFO:__mp_main__:['72352']
+INFO:__mp_main__:['723521']
+INFO:__mp_main__:['7235217']
+INFO:__mp_main__:['72352174']
+INFO:__mp_main__:['723521748']
+INFO:__mp_main__:['723521748']
+INFO:__mp_main__:['723521748']
+INFO:__mp_main__:['723521748']
+INFO:__mp_main__:['723521748']
+INFO:__mp_main__:['72352174']
+INFO:__mp_main__:['7235217']
+INFO:__mp_main__:['723521']
+INFO:__mp_main__:['72352']
+INFO:__mp_main__:['7235']
+INFO:__mp_main__:['723']
+INFO:__mp_main__:['72']
+INFO:__mp_main__:['7']
+INFO:__mp_main__:['74']
+INFO:__mp_main__:['744']
+INFO:__mp_main__:['7444']
+INFO:__mp_main__:['744']
+INFO:__mp_main__:['74']
+INFO:__mp_main__:['7']
+INFO:__mp_main__:['7_']
+INFO:__mp_main__:['7']
+INFO:__mp_main__:['72']
+INFO:__mp_main__:['722']
+INFO:__mp_main__:['7222']
+INFO:__mp_main__:['72222']
+INFO:__mp_main__:['722222']
+INFO:__mp_main__:['72222']
+INFO:__mp_main__:['7222']
+INFO:__mp_main__:['722']
+INFO:__mp_main__:['72']
+INFO:__mp_main__:['7']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['']
+INFO:__mp_main__:['1']
+INFO:__mp_main__:['12']
+INFO:__mp_main__:['12', '']
+INFO:__mp_main__:['12', '1']
+INFO:__mp_main__:['12', '12']
+INFO:__mp_main__:['']
+INFO:__mp_main__:Another good solve sir :)
+INFO:__mp_main__:list index out of range
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-41-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [864]
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-41-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [874]
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-42-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [899]
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-42-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [918]
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-42-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [866]
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-42-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [880]
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-42-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [881]
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-42-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [871]
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-42-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [872]
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-42-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [866]
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-42-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [871]
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-42-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [908]
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-42-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [2591]
+INFO:sanic.root:Received signal SIGTERM. Shutting down.
+INFO:sanic.server:Stopping worker [2591]
+INFO:sanic.server:Worker complete [2591]
+INFO:sanic.root:Server Stopped
+INFO:sanic.root:Sanic v25.3.0
+INFO:sanic.root:Goin' Fast @ aoc.sock http://...
+INFO:sanic.root:app: __main__
+INFO:sanic.root:mode: production, single worker
+INFO:sanic.root:server: sanic, HTTP/1.1
+INFO:sanic.root:python: 3.12.11
+INFO:sanic.root:platform: Linux-6.1.0-42-cloud-amd64-x86_64-with-glibc2.36
+INFO:sanic.root:auto-reload: enabled
+INFO:sanic.root:packages: sanic-routing==23.12.0
+INFO:sanic.server:Starting worker [6937]
+INFO:sanic.root:Received signal SIGTERM. Shutting down.
+INFO:sanic.server:Stopping worker [6937]
+ERROR:sanic.error:Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/mixins/startup.py", line 1141, in serve
+    manager.run()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 195, in run
+    self.monitor()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 295, in monitor
+    cycle = self._poll_monitor()
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 455, in _poll_monitor
+    if self.monitor_subscriber.poll(0.1):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 440, in _poll
+    r = wait([self], timeout)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 1136, in wait
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 391, in shutdown_signal
+    self.shutdown()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/manager.py", line 397, in shutdown
+    process.terminate()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/process.py", line 108, in terminate
+    self.set_state(ProcessState.TERMINATED, force=True)
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/process.py", line 56, in set_state
+    **self.worker_state[self.name],
+      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "<string>", line 2, in __getitem__
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/managers.py", line 827, in _callmethod
+    conn.send((self._id, methodname, args, kwds))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 206, in send
+    self._send_bytes(_ForkingPickler.dumps(obj))
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 427, in _send_bytes
+    self._send(header + buf)
+  File "/home/le/.local/share/uv/python/cpython-3.12.11-linux-x86_64-gnu/lib/python3.12/multiprocessing/connection.py", line 384, in _send
+    n = write(self._handle, buf)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [Errno 32] Broken pipe
+INFO:sanic.root:Server Stopped
+ERROR:sanic.error:Event loop stopped before Future completed.
+Traceback (most recent call last):
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/worker/serve.py", line 121, in worker_serve
+    return _serve_http_1(
+           ^^^^^^^^^^^^^^
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/server/runners.py", line 304, in _serve_http_1
+    _run_server_forever(
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/server/runners.py", line 190, in _run_server_forever
+    cleanup()
+  File "/home/le/aoc/.venv/lib/python3.12/site-packages/sanic/server/runners.py", line 286, in _cleanup
+    loop.run_until_complete(asyncio.sleep(0.1))
+  File "uvloop/loop.pyx", line 1516, in uvloop.loop.Loop.run_until_complete
+RuntimeError: Event loop stopped before Future completed.

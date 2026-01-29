@@ -11,6 +11,13 @@ pensez à cache les inputs/solution
 j'avais pas mis l'encoding PTDR bref
 body block et 404 OK c'est rigolo
 
+OK new video
+j'ai fail aoc
+what matters: pas dijkstra, pk t'as fail
+pk overcomplicate
+ensuite js trick
+puis viz day 6, projet cruchot
+
 # MISC
 
 sample: birds die/projet ds

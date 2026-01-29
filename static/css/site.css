@@ -1,5 +1,6 @@
 @import url("gold.css") layer(gold);
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
 
 
 :root {
@@ -73,11 +74,67 @@ button:hover {
 	width: 25rem;
 	aspect-ratio: 1/1;
 	rotate: Z var(--turn);
-	transition: 1s ease-out;
+	transition: .5s ease-out;
 	mix-blend-mode: hard-light;
 	filter: drop-shadow(0px 0px 4px var(--silver))
 }
 
 #cross {
 	color: var(--gold)
+}
+
+/* AOC6 */
+
+
+#calc-wrapper {
+	width: 20rem;
+	height: 30rem;
+	display: grid;
+	grid-template-columns: 1fr 1.5rem;
+	pointer-events: none;
+	> div:last-child {
+		background: var(--silver);
+		writing-mode: vertical-rl;
+		text-orientation: mixed;
+		text-align: center;
+		align-content: center;
+		color: var(--gold);
+	}
+}
+
+#calc {
+	background: white;
+	display: grid;
+	grid-template-rows: 4rem 1fr;
+	> div:first-child {
+		font-family: 'Micro 5';
+		background: black;
+		text-align: end;
+	}
+}
+
+#buttons {
+	display: grid;
+	grid-template-rows: repeat(4, 1fr) 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	> div {
+		width: 4rem;
+		aspect-ratio: 1/1;
+		background: var(--silver);
+		border-radius: var(--m);
+		cursor: pointer;
+		&:hover {
+			color: var(--gold)
+		}
+		&:last-child {
+			font-weight: bold
+		}
+		pointer-events: all;
+		> div {
+			pointer-events: none;
+		}
+	}
+	a {
+		text-decoration: none
+	}
 }

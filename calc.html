@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOCD* - Calc</title>
+    <link rel="icon" href="/static/img/dragon.svg">
+    <link rel="stylesheet" href="/static/css/site.css">
+	<script type="module" src="https://cdn.jsdelivr.net/gh/starfederation/datastar@1.0.0-RC.6/bundles/datastar.js"></script>
+</head>
+<body class="gc">
+    <h1 class="gt-xl gp-m"><a href="https://adventofcode.com/2025/day/6" target="_blank">AOC 25 D6</a></h1>
+    <div id="calc-wrapper"
+    data-on:click="@post('/calc/' + evt.target.firstChild.innerText)">
+    	<div id="calc" class="gs gp-s">
+			<div id="screen" class="gc gp-xs gt-xxl">HELLO R/AOC</div>
+			<div id="buttons" class="gc gt-l">
+				<div class="gc"><div>7</div></div>
+				<div class="gc"><div>8</div></div>
+				<div class="gc"><div>9</div></div>
+				<div class="gc"><div>4</div></div>
+				<div class="gc"><div>5</div></div>
+				<div class="gc"><div>6</div></div>
+				<div class="gc"><div>1</div></div>
+				<div class="gc"><div>2</div></div>
+				<div class="gc"><div>3</div></div>
+				<div class="gc"><div>_</div></div>
+				<div class="gc"><div>+</div></div>
+				<div class="gc"><div>*</div></div>
+				<div class="gc"><div>C</div></div>
+				<div class="gc"><div>R</div></div>
+				<div class="gc"><a href="https://data-star.dev/" target="blank">🚀</a></div>
+			</div>
+    	</div>
+    	<div class="gs">north pole instruments</div>
+    </div>
+</body>
+</html>

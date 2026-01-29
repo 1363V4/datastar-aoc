@@ -4,7 +4,7 @@ import logging
 import platform
 from uuid import uuid4
 
-from sanic import Sanic, html
+from sanic import Sanic, html, redirect
 from datastar_py import ServerSentEventGenerator as SSE
 from datastar_py.sanic import datastar_response
 
@@ -22,6 +22,7 @@ logger = logging.getLogger(__name__)
 @app.before_server_start
 async def server_start(app):
     app.ctx.cache = {}
+    app.ctx.db = {}
 
 @app.on_response
 async def cookie(request, response):
@@ -133,6 +134,66 @@ async def solve(request):
         logger.info(e)
         yield SSE.patch_elements("<body>block</body>")
 
+
+@app.get('/calc')
+async def calc(request):
+    user_id = request.cookies.get('user_id')
+    if not user_id:
+        return redirect('/')
+    app.ctx.db[user_id] = ['']
+    template = open("calc.html").read()
+    return html(template)
+
+@app.post('/calc/<value>')
+@datastar_response
+async def calc_value(request, value):
+    user_id = request.cookies.get('user_id')
+    if not user_id:
+        return
+    state = app.ctx.db.get(user_id)
+    if not state:
+        return
+    computed = None
+    match value:
+        case "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "_":
+            if len(app.ctx.db[user_id][-1]) < 9:
+                app.ctx.db[user_id][-1] += value
+        case "+":
+            if len(app.ctx.db[user_id]) < 2:
+                return
+            max_l = max(len(el) for el in app.ctx.db[user_id])
+            data = ["_" * (max_l - len(el)) + el for el in app.ctx.db[user_id]]
+            data = zip(*data)
+            computed = 0
+            for num in data:
+                num = "".join(num)
+                num = int(num.replace("_", ""))
+                computed += num
+            app.ctx.db[user_id] = ['']
+        case "*":
+            if len(app.ctx.db[user_id]) < 2:
+                return
+            max_l = max(len(el) for el in app.ctx.db[user_id])
+            data = ["_" * (max_l - len(el)) + el for el in app.ctx.db[user_id]]
+            data = zip(*data)
+            computed = 1
+            for num in data:
+                num = "".join(num)
+                num = int(num.replace("_", ""))
+                computed *= num
+            app.ctx.db[user_id] = ['']
+        case "C":
+            app.ctx.db[user_id][-1] = app.ctx.db[user_id][-1][:-1]
+        case "R":
+            app.ctx.db[user_id] += ['']
+        case _:
+            return
+    logger.info(app.ctx.db[user_id])
+    display = app.ctx.db[user_id][-1]
+    if computed:
+        display = computed
+    html = f'''<div id="screen" class="gc gp-xs gt-xxl">{display}</div>'''
+    return SSE.patch_elements(html)
 
 if __name__ == "__main__":
     is_windows = platform.system() == "Windows"
